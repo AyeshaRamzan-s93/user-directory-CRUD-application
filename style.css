@@ -1,0 +1,87 @@
+ 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+form input, select, button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+form input, form select {
+  flex: 1 1 20%;
+}
+form button {
+  color: white;
+  background-color: #023047;
+  cursor: pointer;
+  flex: 0.2 0.2 100px;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
+  gap: 15px;
+}
+
+.user-card {
+  background: #fafafa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.user-card p {
+  margin: 5px 0;
+}
+
+.user-card button {
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 5px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 60px;
+}
+
+.user-card button:first-child {
+  background: #2196F3;
+  color: white;
+  border: none;
+}
+
+.user-card button:last-child {
+  background: #f44336;
+  color: white;
+  border: none;
+}
+
+

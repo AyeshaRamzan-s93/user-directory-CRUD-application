@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "9",
+      "name": "Zunaira",
+      "email": "zuni123@gmail.com",
+      "position": "Software Engineer",
+      "status": "Resigned"
+    },
+    {
+      "id": "2",
+      "name": "Hadia",
+      "email": "hadia456@gmail.com",
+      "position": "Designer",
+      "status": "Resigned"
+    }
+  ]
+}

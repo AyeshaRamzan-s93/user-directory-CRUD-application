@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Directory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <h1>User Directory</h1>
+
+    <form id="userForm">
+
+      <input type="text" id="id" placeholder="User ID" required />
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="position" placeholder="Position" required />
+
+      <select id="status" required>
+        <option value="">Status</option>
+        <option value="Working">Working</option>
+        <option value="Resigned">Resigned</option>
+      </select>
+
+      <button type="submit" id="submitBtn">Add User</button>
+
+    </form>
+
+    <div id="userList" class="user-list"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
