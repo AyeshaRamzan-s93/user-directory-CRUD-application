@@ -31,6 +31,7 @@ If not, download Node.js
 ### Setup Steps 
 
 1. Clone the repository
+   git clone https://github.com/AyeshaRamzan-s93/user-directory-CRUD-application
 
 2. Install json-server globally
    
