@@ -130,7 +130,7 @@ async function editUser(id) {
 
 
 async function deleteUser(id) {
-  const confirmDelete = confirm('🗑 Are you sure you want to delete this user?');
+  const confirmDelete = confirm('Are you sure you want to delete this user?');
   if (!confirmDelete) return;
 
   const res = await fetch(`http://localhost:3000/users/${id}`, {
@@ -162,4 +162,5 @@ window.addEventListener('DOMContentLoaded', renderUsers);
 
 // // # To restart:
 // // 1. cd into this folder
+
 // // 2. Run: json-server --watch db.json --port 3000
